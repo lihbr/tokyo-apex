@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"jsx": "preserve",
+		"lib": ["esnext", "dom"],
+		"module": "esnext",
+		"moduleResolution": "bundler",
+		"resolveJsonModule": true,
+		"types": ["node", "vite/client"],
+		"strict": true,
+		"declaration": false,
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+
+		"forceConsistentCasingInFileNames": true,
+		"skipLibCheck": true
+	},
+	"exclude": ["node_modules", "dist", "examples"]
+}

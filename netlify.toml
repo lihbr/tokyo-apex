@@ -1,0 +1,32 @@
+[build]
+base = ""
+command = "npm run build"
+publish = "dist"
+
+[build.environment]
+NODE_VERSION = "22"
+
+[functions]
+directory = "src/functions"
+node_bundler = "esbuild"
+
+# Pretty API
+[[redirects]]
+from = "/api/*"
+to = "/.netlify/functions/:splat"
+status = 200
+force = true
+
+# Netlify domain
+[[redirects]]
+from = "https://lihbr-tokyo.netlify.app/*"
+to = "https://lucie.tokyo/:splat"
+status = 301
+force = true
+
+# Analytics
+[[redirects]]
+from = "/p7e/api/event"
+to = "https://plausible.io/api/event"
+status = 202
+force = true
