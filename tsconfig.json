@@ -6,7 +6,7 @@
 		"module": "esnext",
 		"moduleResolution": "bundler",
 		"resolveJsonModule": true,
-		"types": ["node", "vite/client"],
+		"types": ["node", "vite/client", "vite-plugin-glsl/ext"],
 		"strict": true,
 		"declaration": false,
 		"allowSyntheticDefaultImports": true,

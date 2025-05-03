@@ -1,9 +1,10 @@
 import * as path from "node:path"
 
-import akte from "akte/vite"
 import tailwindcss from "@tailwindcss/vite"
-
+import akte from "akte/vite"
 import { defineConfig } from "vite"
+
+import glsl from "vite-plugin-glsl"
 
 import { app } from "./src/akte.app"
 
@@ -43,5 +44,5 @@ export default defineConfig({
 			},
 		},
 	},
-	plugins: [akte({ app }), tailwindcss()],
+	plugins: [akte({ app }), tailwindcss(), glsl()],
 })

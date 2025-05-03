@@ -15,7 +15,6 @@ const STRUCTURED_DATA: unknown[] = [
 ]
 
 export function Layout(slot: string): string {
-
 	return /* html */ `
 		<!DOCTYPE html>
 		<html lang="en">
