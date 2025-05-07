@@ -1,6 +1,6 @@
 {
 	"0001": {
-	"url": "https://images.prismic.io/lihbr/aBbmG_IqRLdaB2YL_250509-japan-0001.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmG_IqRLdaB2YL_250509-japan-0001.jpg?auto=format",
 	"dimensions": {
 	"width": 4358,
 	"height": 3023
@@ -11,7 +11,7 @@
 	"iso": 100
 	},
 	"0002": {
-	"url": "https://images.prismic.io/lihbr/aBbmHPIqRLdaB2YM_250509-japan-0002.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmHPIqRLdaB2YM_250509-japan-0002.jpg?auto=format",
 	"dimensions": {
 	"width": 4358,
 	"height": 3023
@@ -22,7 +22,7 @@
 	"iso": 100
 	},
 	"0003": {
-	"url": "https://images.prismic.io/lihbr/aBbmHvIqRLdaB2YN_250509-japan-0003.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmHvIqRLdaB2YN_250509-japan-0003.jpg?auto=format",
 	"dimensions": {
 	"width": 4092,
 	"height": 2838
@@ -33,7 +33,7 @@
 	"iso": 100
 	},
 	"0004": {
-	"url": "https://images.prismic.io/lihbr/aBbmH_IqRLdaB2YO_250509-japan-0004.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmH_IqRLdaB2YO_250509-japan-0004.jpg?auto=format",
 	"dimensions": {
 	"width": 4358,
 	"height": 3023
@@ -45,7 +45,7 @@
 	"iso": 400
 	},
 	"0005": {
-	"url": "https://images.prismic.io/lihbr/aBbmIfIqRLdaB2YP_250509-japan-0005.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmIfIqRLdaB2YP_250509-japan-0005.jpg?auto=format",
 	"dimensions": {
 	"width": 4160,
 	"height": 6240
@@ -57,7 +57,7 @@
 	"iso": 160
 	},
 	"0006": {
-	"url": "https://images.prismic.io/lihbr/aBbmI_IqRLdaB2YQ_250509-japan-0006.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmI_IqRLdaB2YQ_250509-japan-0006.jpg?auto=format",
 	"dimensions": {
 	"width": 2948,
 	"height": 4250
@@ -68,7 +68,7 @@
 	"iso": 100
 	},
 	"0007": {
-	"url": "https://images.prismic.io/lihbr/aBbmJfIqRLdaB2YR_250509-japan-0007.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmJfIqRLdaB2YR_250509-japan-0007.jpg?auto=format",
 	"dimensions": {
 	"width": 6233,
 	"height": 4155
@@ -80,7 +80,7 @@
 	"iso": 80
 	},
 	"0008": {
-	"url": "https://images.prismic.io/lihbr/aBbmJ_IqRLdaB2YS_250509-japan-0008.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmJ_IqRLdaB2YS_250509-japan-0008.jpg?auto=format",
 	"dimensions": {
 	"width": 4358,
 	"height": 3023
@@ -91,7 +91,7 @@
 	"iso": 100
 	},
 	"0009": {
-	"url": "https://images.prismic.io/lihbr/aBbmKPIqRLdaB2YT_250509-japan-0009.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmKPIqRLdaB2YT_250509-japan-0009.jpg?auto=format",
 	"dimensions": {
 	"width": 4358,
 	"height": 3023
@@ -102,7 +102,7 @@
 	"iso": 400
 	},
 	"0010": {
-	"url": "https://images.prismic.io/lihbr/aBbmKvIqRLdaB2YU_250509-japan-0010.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmKvIqRLdaB2YU_250509-japan-0010.jpg?auto=format",
 	"dimensions": {
 	"width": 4190,
 	"height": 2906
@@ -114,7 +114,7 @@
 	"iso": 400
 	},
 	"0011": {
-	"url": "https://images.prismic.io/lihbr/aBbmK_IqRLdaB2YV_250509-japan-0011.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmK_IqRLdaB2YV_250509-japan-0011.jpg?auto=format",
 	"dimensions": {
 	"width": 3023,
 	"height": 4358
@@ -126,7 +126,7 @@
 	"iso": 400
 	},
 	"0012": {
-	"url": "https://images.prismic.io/lihbr/aBbmLfIqRLdaB2YW_250509-japan-0012.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmLfIqRLdaB2YW_250509-japan-0012.jpg?auto=format",
 	"dimensions": {
 	"width": 3023,
 	"height": 4358
@@ -138,7 +138,7 @@
 	"iso": 200
 	},
 	"0013": {
-	"url": "https://images.prismic.io/lihbr/aBbmL_IqRLdaB2YX_250509-japan-0013.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmL_IqRLdaB2YX_250509-japan-0013.jpg?auto=format",
 	"dimensions": {
 	"width": 4358,
 	"height": 3023
@@ -149,7 +149,7 @@
 	"iso": 100
 	},
 	"0014": {
-	"url": "https://images.prismic.io/lihbr/aBbmMPIqRLdaB2YY_250509-japan-0014.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmMPIqRLdaB2YY_250509-japan-0014.jpg?auto=format",
 	"dimensions": {
 	"width": 4005,
 	"height": 6007
@@ -161,7 +161,7 @@
 	"iso": 400
 	},
 	"0015": {
-	"url": "https://images.prismic.io/lihbr/aBbmMvIqRLdaB2YZ_250509-japan-0015.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmMvIqRLdaB2YZ_250509-japan-0015.jpg?auto=format",
 	"dimensions": {
 	"width": 4358,
 	"height": 3023
@@ -173,7 +173,7 @@
 	"iso": 200
 	},
 	"0016": {
-	"url": "https://images.prismic.io/lihbr/aBbmNPIqRLdaB2Ya_250509-japan-0016.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmNPIqRLdaB2Ya_250509-japan-0016.jpg?auto=format",
 	"dimensions": {
 	"width": 3005,
 	"height": 4332
@@ -185,7 +185,7 @@
 	"iso": 200
 	},
 	"0017": {
-	"url": "https://images.prismic.io/lihbr/aBbmNfIqRLdaB2Yb_250509-japan-0017.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmNfIqRLdaB2Yb_250509-japan-0017.jpg?auto=format",
 	"dimensions": {
 	"width": 4242,
 	"height": 2943
@@ -196,7 +196,7 @@
 	"iso": 400
 	},
 	"0018": {
-	"url": "https://images.prismic.io/lihbr/aBbmN_IqRLdaB2Yc_250509-japan-0018.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmN_IqRLdaB2Yc_250509-japan-0018.jpg?auto=format",
 	"dimensions": {
 	"width": 4358,
 	"height": 3023
@@ -207,7 +207,7 @@
 	"iso": 100
 	},
 	"0019": {
-	"url": "https://images.prismic.io/lihbr/aBbmOPIqRLdaB2Yd_250509-japan-0019.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmOPIqRLdaB2Yd_250509-japan-0019.jpg?auto=format",
 	"dimensions": {
 	"width": 4358,
 	"height": 3023
@@ -218,7 +218,7 @@
 	"iso": 100
 	},
 	"0020": {
-	"url": "https://images.prismic.io/lihbr/aBbmOfIqRLdaB2Ye_250509-japan-0020.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmOfIqRLdaB2Ye_250509-japan-0020.jpg?auto=format",
 	"dimensions": {
 	"width": 4358,
 	"height": 3023
@@ -229,7 +229,7 @@
 	"iso": 100
 	},
 	"0021": {
-	"url": "https://images.prismic.io/lihbr/aBbmOvIqRLdaB2Yf_250509-japan-0021.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmOvIqRLdaB2Yf_250509-japan-0021.jpg?auto=format",
 	"dimensions": {
 	"width": 4358,
 	"height": 3023
@@ -240,7 +240,7 @@
 	"iso": 400
 	},
 	"0022": {
-	"url": "https://images.prismic.io/lihbr/aBbmPPIqRLdaB2Yg_250509-japan-0022.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmPPIqRLdaB2Yg_250509-japan-0022.jpg?auto=format",
 	"dimensions": {
 	"width": 4358,
 	"height": 3023
@@ -251,7 +251,7 @@
 	"iso": 400
 	},
 	"0023": {
-	"url": "https://images.prismic.io/lihbr/aBbmPfIqRLdaB2Yh_250509-japan-0023.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmPfIqRLdaB2Yh_250509-japan-0023.jpg?auto=format",
 	"dimensions": {
 	"width": 4170,
 	"height": 2893
@@ -262,7 +262,7 @@
 	"iso": 400
 	},
 	"0024": {
-	"url": "https://images.prismic.io/lihbr/aBbmP_IqRLdaB2Yi_250509-japan-0024.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmP_IqRLdaB2Yi_250509-japan-0024.jpg?auto=format",
 	"dimensions": {
 	"width": 4358,
 	"height": 3023
@@ -273,7 +273,7 @@
 	"iso": 100
 	},
 	"0025": {
-	"url": "https://images.prismic.io/lihbr/aBbmQPIqRLdaB2Yj_250509-japan-0025.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmQPIqRLdaB2Yj_250509-japan-0025.jpg?auto=format",
 	"dimensions": {
 	"width": 4358,
 	"height": 3023
@@ -284,7 +284,7 @@
 	"iso": 100
 	},
 	"0026": {
-	"url": "https://images.prismic.io/lihbr/aBbmQfIqRLdaB2Yk_250509-japan-0026.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmQfIqRLdaB2Yk_250509-japan-0026.jpg?auto=format",
 	"dimensions": {
 	"width": 4358,
 	"height": 3023
@@ -295,7 +295,7 @@
 	"iso": 100
 	},
 	"0027": {
-	"url": "https://images.prismic.io/lihbr/aBbmRPIqRLdaB2Yl_250509-japan-0027.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmRPIqRLdaB2Yl_250509-japan-0027.jpg?auto=format",
 	"dimensions": {
 	"width": 4358,
 	"height": 3023
@@ -306,7 +306,7 @@
 	"iso": 100
 	},
 	"0028": {
-	"url": "https://images.prismic.io/lihbr/aBbmRvIqRLdaB2Ym_250509-japan-0028.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmRvIqRLdaB2Ym_250509-japan-0028.jpg?auto=format",
 	"dimensions": {
 	"width": 4358,
 	"height": 3023
@@ -317,7 +317,7 @@
 	"iso": 100
 	},
 	"0029": {
-	"url": "https://images.prismic.io/lihbr/aBbmR_IqRLdaB2Yn_250509-japan-0029.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmR_IqRLdaB2Yn_250509-japan-0029.jpg?auto=format",
 	"dimensions": {
 	"width": 2993,
 	"height": 4315
@@ -328,7 +328,7 @@
 	"iso": 100
 	},
 	"0030": {
-	"url": "https://images.prismic.io/lihbr/aBbmSPIqRLdaB2Yo_250509-japan-0030.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmSPIqRLdaB2Yo_250509-japan-0030.jpg?auto=format",
 	"dimensions": {
 	"width": 4358,
 	"height": 3023
@@ -339,7 +339,7 @@
 	"iso": 800
 	},
 	"0031": {
-	"url": "https://images.prismic.io/lihbr/aBbmSvIqRLdaB2Yp_250509-japan-0031.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmSvIqRLdaB2Yp_250509-japan-0031.jpg?auto=format",
 	"dimensions": {
 	"width": 4304,
 	"height": 2986
@@ -350,7 +350,7 @@
 	"iso": 800
 	},
 	"0032": {
-	"url": "https://images.prismic.io/lihbr/aBbmTPIqRLdaB2Yq_250509-japan-0032.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmTPIqRLdaB2Yq_250509-japan-0032.jpg?auto=format",
 	"dimensions": {
 	"width": 4358,
 	"height": 3023
@@ -361,7 +361,7 @@
 	"iso": 800
 	},
 	"0033": {
-	"url": "https://images.prismic.io/lihbr/aBbmTfIqRLdaB2Yr_250509-japan-0033.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmTfIqRLdaB2Yr_250509-japan-0033.jpg?auto=format",
 	"dimensions": {
 	"width": 4358,
 	"height": 3023
@@ -372,7 +372,7 @@
 	"iso": 100
 	},
 	"0034": {
-	"url": "https://images.prismic.io/lihbr/aBbmTvIqRLdaB2Ys_250509-japan-0034.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmTvIqRLdaB2Ys_250509-japan-0034.jpg?auto=format",
 	"dimensions": {
 	"width": 4358,
 	"height": 3023
@@ -384,7 +384,7 @@
 	"iso": 400
 	},
 	"0035": {
-	"url": "https://images.prismic.io/lihbr/aBbmUPIqRLdaB2Yt_250509-japan-0035.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmUPIqRLdaB2Yt_250509-japan-0035.jpg?auto=format",
 	"dimensions": {
 	"width": 4358,
 	"height": 3023
@@ -395,7 +395,7 @@
 	"iso": 100
 	},
 	"0036": {
-	"url": "https://images.prismic.io/lihbr/aBbmUvIqRLdaB2Yu_250509-japan-0036.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmUvIqRLdaB2Yu_250509-japan-0036.jpg?auto=format",
 	"dimensions": {
 	"width": 4297,
 	"height": 2981
@@ -406,7 +406,7 @@
 	"iso": 400
 	},
 	"0037": {
-	"url": "https://images.prismic.io/lihbr/aBbmU_IqRLdaB2Yv_250509-japan-0037.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmU_IqRLdaB2Yv_250509-japan-0037.jpg?auto=format",
 	"dimensions": {
 	"width": 4358,
 	"height": 3023
@@ -418,7 +418,7 @@
 	"iso": 200
 	},
 	"0038": {
-	"url": "https://images.prismic.io/lihbr/aBbmVvIqRLdaB2Yw_250509-japan-0038.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmVvIqRLdaB2Yw_250509-japan-0038.jpg?auto=format",
 	"dimensions": {
 	"width": 4358,
 	"height": 3023
@@ -429,7 +429,7 @@
 	"iso": 100
 	},
 	"0039": {
-	"url": "https://images.prismic.io/lihbr/aBbmWPIqRLdaB2Yx_250509-japan-0039.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmWPIqRLdaB2Yx_250509-japan-0039.jpg?auto=format",
 	"dimensions": {
 	"width": 4358,
 	"height": 3023
@@ -440,7 +440,7 @@
 	"iso": 100
 	},
 	"0040": {
-	"url": "https://images.prismic.io/lihbr/aBbmWvIqRLdaB2Yy_250509-japan-0040.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmWvIqRLdaB2Yy_250509-japan-0040.jpg?auto=format",
 	"dimensions": {
 	"width": 4358,
 	"height": 3023
@@ -451,7 +451,7 @@
 	"iso": 100
 	},
 	"0041": {
-	"url": "https://images.prismic.io/lihbr/aBbmW_IqRLdaB2Yz_250509-japan-0041.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmW_IqRLdaB2Yz_250509-japan-0041.jpg?auto=format",
 	"dimensions": {
 	"width": 4358,
 	"height": 3023
@@ -462,7 +462,7 @@
 	"iso": 400
 	},
 	"0042": {
-	"url": "https://images.prismic.io/lihbr/aBbmXfIqRLdaB2Y0_250509-japan-0042.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmXfIqRLdaB2Y0_250509-japan-0042.jpg?auto=format",
 	"dimensions": {
 	"width": 4263,
 	"height": 2957
@@ -474,7 +474,7 @@
 	"iso": 400
 	},
 	"0043": {
-	"url": "https://images.prismic.io/lihbr/aBbmXvIqRLdaB2Y1_250509-japan-0043.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmXvIqRLdaB2Y1_250509-japan-0043.jpg?auto=format",
 	"dimensions": {
 	"width": 4358,
 	"height": 3023
@@ -485,7 +485,7 @@
 	"iso": 100
 	},
 	"0044": {
-	"url": "https://images.prismic.io/lihbr/aBbmYPIqRLdaB2Y2_250509-japan-0044.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmYPIqRLdaB2Y2_250509-japan-0044.jpg?auto=format",
 	"dimensions": {
 	"width": 4358,
 	"height": 3023
@@ -496,7 +496,7 @@
 	"iso": 100
 	},
 	"0045": {
-	"url": "https://images.prismic.io/lihbr/aBbmYfIqRLdaB2Y3_250509-japan-0045.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmYfIqRLdaB2Y3_250509-japan-0045.jpg?auto=format",
 	"dimensions": {
 	"width": 4358,
 	"height": 3023
@@ -508,7 +508,7 @@
 	"iso": 400
 	},
 	"0046": {
-	"url": "https://images.prismic.io/lihbr/aBbmY_IqRLdaB2Y4_250509-japan-0046.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmY_IqRLdaB2Y4_250509-japan-0046.jpg?auto=format",
 	"dimensions": {
 	"width": 5680,
 	"height": 2097
@@ -520,7 +520,7 @@
 	"iso": 2500
 	},
 	"0047": {
-	"url": "https://images.prismic.io/lihbr/aBbmZPIqRLdaB2Y5_250509-japan-0047.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmZPIqRLdaB2Y5_250509-japan-0047.jpg?auto=format",
 	"dimensions": {
 	"width": 3023,
 	"height": 4358
@@ -531,7 +531,7 @@
 	"iso": 100
 	},
 	"0048": {
-	"url": "https://images.prismic.io/lihbr/aBbmZvIqRLdaB2Y6_250509-japan-0048.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmZvIqRLdaB2Y6_250509-japan-0048.jpg?auto=format",
 	"dimensions": {
 	"width": 4145,
 	"height": 2875
@@ -542,7 +542,7 @@
 	"iso": 100
 	},
 	"0049": {
-	"url": "https://images.prismic.io/lihbr/aBbmaPIqRLdaB2Y7_250509-japan-0049.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmaPIqRLdaB2Y7_250509-japan-0049.jpg?auto=format",
 	"dimensions": {
 	"width": 4313,
 	"height": 2992
@@ -553,7 +553,7 @@
 	"iso": 100
 	},
 	"0050": {
-	"url": "https://images.prismic.io/lihbr/aBbmafIqRLdaB2Y8_250509-japan-0050.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmafIqRLdaB2Y8_250509-japan-0050.jpg?auto=format",
 	"dimensions": {
 	"width": 4358,
 	"height": 3023
@@ -564,7 +564,7 @@
 	"iso": 100
 	},
 	"0051": {
-	"url": "https://images.prismic.io/lihbr/aBbma_IqRLdaB2Y9_250509-japan-0051.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbma_IqRLdaB2Y9_250509-japan-0051.jpg?auto=format",
 	"dimensions": {
 	"width": 2750,
 	"height": 3965
@@ -575,7 +575,7 @@
 	"iso": 100
 	},
 	"0052": {
-	"url": "https://images.prismic.io/lihbr/aBbmbfIqRLdaB2Y-_250509-japan-0052.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmbfIqRLdaB2Y-_250509-japan-0052.jpg?auto=format",
 	"dimensions": {
 	"width": 4160,
 	"height": 6240
@@ -587,7 +587,7 @@
 	"iso": 160
 	},
 	"0053": {
-	"url": "https://images.prismic.io/lihbr/aBbmcPIqRLdaB2Y__250509-japan-0053.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmcPIqRLdaB2Y__250509-japan-0053.jpg?auto=format",
 	"dimensions": {
 	"width": 6240,
 	"height": 4160
@@ -599,7 +599,7 @@
 	"iso": 800
 	},
 	"0054": {
-	"url": "https://images.prismic.io/lihbr/aBbmcvIqRLdaB2ZA_250509-japan-0054.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmcvIqRLdaB2ZA_250509-japan-0054.jpg?auto=format",
 	"dimensions": {
 	"width": 5827,
 	"height": 3885
@@ -611,7 +611,7 @@
 	"iso": 500
 	},
 	"0055": {
-	"url": "https://images.prismic.io/lihbr/aBbmdPIqRLdaB2ZB_250509-japan-0055.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmdPIqRLdaB2ZB_250509-japan-0055.jpg?auto=format",
 	"dimensions": {
 	"width": 6218,
 	"height": 4145
@@ -623,7 +623,7 @@
 	"iso": 640
 	},
 	"0056": {
-	"url": "https://images.prismic.io/lihbr/aBbmdfIqRLdaB2ZC_250509-japan-0056.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmdfIqRLdaB2ZC_250509-japan-0056.jpg?auto=format",
 	"dimensions": {
 	"width": 4358,
 	"height": 3023
@@ -634,7 +634,7 @@
 	"iso": 400
 	},
 	"0057": {
-	"url": "https://images.prismic.io/lihbr/aBbmd_IqRLdaB2ZD_250509-japan-0057.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmd_IqRLdaB2ZD_250509-japan-0057.jpg?auto=format",
 	"dimensions": {
 	"width": 4358,
 	"height": 3023
@@ -645,7 +645,7 @@
 	"iso": 400
 	},
 	"0058": {
-	"url": "https://images.prismic.io/lihbr/aBbmePIqRLdaB2ZE_250509-japan-0058.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmePIqRLdaB2ZE_250509-japan-0058.jpg?auto=format",
 	"dimensions": {
 	"width": 4305,
 	"height": 2986
@@ -656,7 +656,7 @@
 	"iso": 400
 	},
 	"0059": {
-	"url": "https://images.prismic.io/lihbr/aBbmevIqRLdaB2ZF_250509-japan-0059.jpg?auto=format,compress",
+	"url": "https://images.prismic.io/lihbr/aBbmevIqRLdaB2ZF_250509-japan-0059.jpg?auto=format",
 	"dimensions": {
 	"width": 4358,
 	"height": 3023

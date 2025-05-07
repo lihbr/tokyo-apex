@@ -1,4 +1,4 @@
-import { asImageSrc, ImageFieldImage } from "@prismicio/client"
+import { asImagePixelDensitySrcSet, ImageFieldImage } from "@prismicio/client"
 import pictures from "../../data/pictures.json"
 
 export function getPicture(id: number | string): typeof pictures[keyof typeof pictures] {
@@ -14,10 +14,13 @@ export function getPicture(id: number | string): typeof pictures[keyof typeof pi
 export function Picture(id: number | string, props: { class?: string } = {}): string {
 	const picture = getPicture(id)
 
-	const src = asImageSrc(picture as unknown as ImageFieldImage, { auto: ["format"] })
+	const { src, srcset } = asImagePixelDensitySrcSet(
+		picture as unknown as ImageFieldImage,
+		{ auto: ["format"], height: 600, pixelDensities: [1, 1.5, 2] }
+	)!
 	const maybeClass = props.class ? ` class="${props.class}"` : ""
 
-	return /* html */ `<img src="${src}" alt="" loading="lazy" width="${picture.dimensions.width}" height="${picture.dimensions.height}" ${maybeClass} data-id="${id}">`
+	return /* html */ `<img src="${src}" srcset="${srcset}" alt="" loading="lazy" width="${picture.dimensions.width}" height="${picture.dimensions.height}" ${maybeClass} data-id="${id}">`
 }
 
 export function PictureMeta(id: number | string): string {

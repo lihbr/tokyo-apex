@@ -4,9 +4,10 @@
 }
 
 html {
-	@apply antialiased font-mono;
+	@apply antialiased font-mono bg-white;
 	color-scheme: light;
 	cursor: var(--cursor);
+	scroll-behavior: smooth;
 
 	& ::selection {
 		@apply text-white bg-black;
@@ -29,7 +30,7 @@ shader-doodle {
 	@apply block w-full h-screen fixed top-0 left-0 -z-1 pointer-events-none;
 }
 
-p {
+h2, p, li {
 	@apply text-sm max-w-[60ch];
 }
 
