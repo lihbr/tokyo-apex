@@ -38,7 +38,9 @@ export function Layout(slot: string): string {
 
 			<script type="application/ld+json">${JSON.stringify(STRUCTURED_DATA)}</script>
 
-			<link rel="icon" href="favicon.png" type="image/png" />
+			<link rel="icon" href="/favicon.png" type="image/png" />
+
+			<link rel="preload" href="/assets/fonts/geistmono.woff2" as="font" type="font/woff2" crossorigin>
 			<link rel="stylesheet" href="/assets/css/style.css" />
 		</head>
 		<body>

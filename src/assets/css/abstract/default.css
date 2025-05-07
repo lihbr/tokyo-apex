@@ -1,0 +1,38 @@
+:root {
+	--cursor: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCA5NiA5NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik05NiAwSDBWOTZIOTZWMFpNNjQgMzJIMzJWNjRINjRWMzJaIiBmaWxsPSIjMTMxMDEwIi8+Cjwvc3ZnPgo=") 16 16, auto;
+	--pointer: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCA5NiA5NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3QgeD0iMzIiIHk9IjMyIiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIGZpbGw9IiNFODQzMTEiLz4KPC9zdmc+Cg==") 16 16, auto;
+}
+
+html {
+	@apply antialiased font-mono;
+	color-scheme: light;
+	cursor: var(--cursor);
+
+	& ::selection {
+		@apply text-white bg-black;
+	}
+}
+
+a, button {
+	cursor: var(--pointer);
+
+	&:focus-visible {
+		@apply outline-2 outline-offset-1 outline-black;
+	}
+
+	&:focus:not(:focus-visible) {
+		@apply outline-none;
+	}
+}
+
+shader-doodle {
+	@apply block w-full h-screen fixed top-0 left-0 -z-1 pointer-events-none;
+}
+
+p {
+	@apply text-sm max-w-[60ch];
+}
+
+img {
+	background: #faf1f1;
+}

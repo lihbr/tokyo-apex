@@ -41,7 +41,7 @@ void main() {
 	color *= 1.0 - random(vec3(st, floor(u_time * 5.0))) * 0.05 * (d3 * 0.3 + 0.7);
 
 	// Fade-in effect
-	float fade_in = smoothstep(0.0, 3.0, u_time);
+	float fade_in = smoothstep(1.0, 5.0, u_time);
 
 	gl_FragColor = vec4(color * fade_in, fade_in);
 	// gl_FragColor = vec4(vec3(d3), fade_in);
