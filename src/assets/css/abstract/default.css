@@ -26,14 +26,30 @@ a, button {
 	}
 }
 
-shader-doodle {
-	@apply block w-full h-screen fixed top-0 left-0 -z-1 pointer-events-none;
+section, .section {
+	@apply grid grid-cols-2 md:grid-cols-4 py-24;
+
+	& h1,
+	& h2,
+	& p,
+	& li,
+	& figcaption {
+		@apply px-2;
+	}
 }
 
-h2, p, li {
+p, li, figcaption {
 	@apply text-sm max-w-[60ch];
+}
+
+p, figcaption {
+	@apply text-pretty;
 }
 
 img {
 	background: #faf1f1;
+}
+
+shader-doodle {
+	@apply block w-full h-screen fixed top-0 left-0 -z-1 pointer-events-none;
 }
