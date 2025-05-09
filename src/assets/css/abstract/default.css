@@ -39,11 +39,15 @@ section, .section {
 }
 
 p, li, figcaption {
-	@apply text-sm max-w-[60ch];
+	@apply text-sm max-w-[40ch];
 }
 
 h2, p, figcaption {
 	@apply text-pretty;
+}
+
+h2 {
+	@apply text-[2rem] leading-tight font-bold italic break-words;
 }
 
 img {

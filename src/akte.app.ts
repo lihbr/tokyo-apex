@@ -1,10 +1,10 @@
 import { defineAkteApp, defineAkteFile } from "akte"
 
 import { Figure } from "./components/Figure"
-import { Logomark } from "./components/Logomark"
-import { Layout } from "./Layout"
-import { Picture, PictureMeta } from "./components/Picture"
 import { Heading, HeadingLink } from "./components/Heading"
+import { Logomark } from "./components/Logomark"
+import { Picture, PictureMeta } from "./components/Picture"
+import { Layout } from "./Layout"
 
 export const app = defineAkteApp({
 	files: [
@@ -19,7 +19,7 @@ export const app = defineAkteApp({
 								In February 2025, I embarked on a 3-month journey to Tokyo, Japan. I wanted to explore the city, meet friends, and learn about local life.
 							</p>
 							<p class="slide-enter-3">
-								As a hobbyist photographer, I tried capturing things that caught my attention. This website is a curated collection of my shots from this trip.
+								As a hobbyist photographer, I tried capturing things that caught my attention. This website is a curated collection of shots made during this trip.
 							</p>
 							<p class="slide-enter-4">
 								<a href="#start" class="after:content-['_→']"><span class="underline">Start</span></a>
@@ -70,14 +70,14 @@ export const app = defineAkteApp({
 							class: "col-span-2",
 							imgClass: "col-span-2",
 							caption: "Flamingos and yound students at Ueno.",
-							captionClass: "col-start-2 md:col-start-3"
+							captionClass: "col-start-2 md:col-start-3",
 						})}
 						${Figure(5, { class: "col-span-2 md:col-span-1" })}
 						${Figure(9, {
 							class: "col-span-2 md:row-span-2 md:self-center",
 							imgClass: "col-span-2",
 							caption: "Train waiting at Suzuka Circuit Inō Station.",
-							captionClass: "md:col-start-4"
+							captionClass: "md:col-start-4",
 						})}
 						${Figure(10, { class: "col-span-2" })}
 					</section>
@@ -95,13 +95,13 @@ export const app = defineAkteApp({
 							class: "col-span-2 md:mt-32",
 							imgClass: "col-span-2",
 							caption: "Kamakura seaside from Goryo shrine.",
-							captionClass: "md:col-start-4"
+							captionClass: "md:col-start-4",
 						})}
 						${Figure(4, {
 							class: "col-span-2 md:col-start-2",
 							imgClass: "col-span-2",
 							caption: "Tokyo skyline from Ikebukuro Sunshine's City observatory.",
-							captionClass: "col-start-2 md:col-start-auto !mb-0"
+							captionClass: "col-start-2 md:col-start-auto !mb-0",
 						})}
 					</section>
 				`
@@ -117,7 +117,7 @@ export const app = defineAkteApp({
 						class: "col-span-2 md:col-start-2",
 						imgClass: "col-span-2",
 						caption: "View from Kawagoe.",
-						captionClass: "col-start-2 md:col-start-3"
+						captionClass: "col-start-2 md:col-start-3",
 					})}
 					${Figure(20, { class: "col-span-2" })}
 					${Figure(21, { class: "col-span-2 md:mt-32" })}
@@ -125,7 +125,7 @@ export const app = defineAkteApp({
 						class: "col-span-2 md:col-span-3",
 						imgClass: "col-span-2",
 						caption: "Nagoya's castle, as part of one of the trips I made during my stay.",
-						captionClass: "md:-order-1 md:text-right"
+						captionClass: "md:-order-1 md:text-right",
 					})}
 					${Figure(23, { class: "col-span-2 md:col-start-3" })}
 				</section>
@@ -142,7 +142,7 @@ export const app = defineAkteApp({
 					${Figure(29, {
 						class: "col-span-2 md:col-span-1 md:row-span-2 self-center",
 						imgClass: "col-span-2 md:col-span-1",
-						caption: "Shibuya Center-Gai."
+						caption: "Shibuya Center-Gai.",
 					})}
 					${Figure(32, { class: "col-span-2" })}
 				</section>
@@ -158,7 +158,7 @@ export const app = defineAkteApp({
 							class: "col-span-2 md:col-start-1",
 							imgClass: "col-span-2",
 							caption: "Mount Fuji behind the pines.",
-							captionClass: "col-start-2 md:col-start-auto"
+							captionClass: "col-start-2 md:col-start-auto",
 						})}
 						${Figure(47, { class: "md:col-span-1 md:row-span-2 md:self-center" })}
 						${Figure(51, { class: "md:row-span-2 md:self-center" })}
@@ -166,7 +166,7 @@ export const app = defineAkteApp({
 						${Figure(52, {
 							class: "col-span-2 md:col-span-1 md:mt-32",
 							imgClass: "col-span-2 md:col-span-1",
-							caption: "Nikkō Tōshogū shrine entrance."
+							caption: "Nikkō Tōshogū shrine entrance.",
 						})}
 						${Figure(50, { class: "col-span-2" })}
 					</section>
@@ -182,7 +182,7 @@ export const app = defineAkteApp({
 						${Figure(39, {
 							class: "col-span-2 md:mt-32",
 							imgClass: "col-span-2",
-							caption: "As seen through the restaurant's windows."
+							caption: "As seen through the restaurant's windows.",
 						})}
 						${Figure(40, { class: "col-span-2" })}
 						${Figure(41, { class: "col-span-2 md:col-start-2" })}
@@ -193,13 +193,13 @@ export const app = defineAkteApp({
 				const rain = /* html */ `
 					<section id="when-the-rain-begins-to-fall" class="items-start">
 						${Heading("when-the-rain-begins-to-fall", { class: "md:col-start-3" })}
-						<p class="col-start-1 md:row-start-2">
+						<p class="col-start-1 md:row-start-2 md:col-start-4">
 							Umbrellas bloom under soft skies — while surfaces shimmer, movement narrows, and attires mute.
 						</p>
 						${Figure(43, {
 							class: "col-span-2 md:col-span-3 md:col-start-1 md:row-start-2",
 							imgClass: "col-span-2 md:col-span-3",
-							caption: "Challenging focus with freezing hands, near Kita-Ikebukuro."
+							caption: "Challenging focus with freezing hands, near Kita-Ikebukuro.",
 						})}
 						${Figure(44, { class: "col-span-2 md:mt-32" })}
 						${Figure(45, { class: "col-span-2" })}
@@ -217,7 +217,7 @@ export const app = defineAkteApp({
 							class: "col-span-2 md:col-start-2",
 							imgClass: "col-span-2",
 							caption: "Apartment in Ikebukuro and furniture chaos.",
-							captionClass: "md:col-start-2"
+							captionClass: "md:col-start-2",
 						})}
 						${Figure(35, { class: "col-span-2" })}
 						${Figure(36, { class: "col-span-2 md:mt-32" })}
@@ -225,7 +225,7 @@ export const app = defineAkteApp({
 							class: "col-span-2 md:col-start-2",
 							imgClass: "col-span-2",
 							caption: "Calm lodging house in Chōfu.",
-							captionClass: "col-start-2 md:col-start-1 !mb-0"
+							captionClass: "col-start-2 md:col-start-1 !mb-0",
 						})}
 					</section>
 				`
@@ -239,20 +239,20 @@ export const app = defineAkteApp({
 						${Figure(53, {
 							class: "col-span-2 md:row-start-2",
 							imgClass: "col-span-2",
-							caption: "Aston Martin F1 team training pit stops."
+							caption: "Aston Martin F1 team training pit stops.",
 						})}
 						${Figure(55, { class: "col-span-2 md:col-start-2" })}
 						${Figure(54, {
 							class: "col-span-2",
 							imgClass: "col-span-2",
-							caption: "Kimi Antonelli says \"hi\"!"
+							caption: "Kimi Antonelli says \"hi\"!",
 						})}
 						${Figure(57, { class: "col-span-2 md:mt-32" })}
 						${Figure(56, {
 							class: "col-span-2 md:col-span-3 md:col-start-2",
 							imgClass: "col-span-2",
 							caption: "Long, but organized queue to catch the bus to the circuit.",
-							captionClass: "md:self-end"
+							captionClass: "md:self-end",
 						})}
 						${Figure(58, { class: "col-span-2 md:col-span-3" })}
 					</section>
@@ -260,35 +260,81 @@ export const app = defineAkteApp({
 
 				const sinking = /* html */ `
 					<section id="sinking-into-the-scene" class="items-start">
-						${Heading("sinking-into-the-scene", { class: "md:col-start-3" })}
-						<p class="col-start-1 md:col-start-3">
-							WIP
+						${Heading("sinking-into-the-scene", { class: "md:col-start-2" })}
+						<p class="col-start-1">
+							Of wider canvas, inviting the gaze to slow, and thoughts to be absorbed by the surrounding atmosphere.
 						</p>
-						${Figure(13, { class: "col-span-2" })}
-						${Figure(14, { class: "col-span-2" })}
-						${Figure(15, { class: "col-span-2" })}
-						${Figure(16, { class: "col-span-2" })}
-						${Figure(17, { class: "col-span-2" })}
+						${Figure(13, { class: "col-span-2 md:col-start-2 md:row-span-2" })}
+						${Figure(14, { class: "col-span-2 md:col-span-1 md:col-start-1 md:row-span-2 md:self-center" })}
+						${Figure(15, {
+							class: "col-span-2 md:col-start-3",
+							imgClass: "col-span-2",
+							caption: "Outside view of the Chōfu lodging house.",
+							captionClass: "col-start-2",
+						})}
+						${Figure(17, {
+							class: "col-span-2",
+							imgClass: "col-span-2",
+							caption: "Chōfu airfield deserving Tokyo's southern islands.",
+						})}
+						${Figure(16, { class: "col-span-2 md:col-span-1 md:mt-32" })}
 					</section>
 				`
 
 				const lingering = /* html */ `
 					<section id="and-lingering-in-fragments" class="items-start">
-						${Heading("and-lingering-in-fragments", { class: "md:col-start-3" })}
-						<p class="col-start-1 md:col-start-3">
-							WIP
+						${Heading("and-lingering-in-fragments", { class: "col-start-2 md:col-start-3" })}
+						<p class="col-start-2 md:row-start-2 md:col-start-4">
+							Moving closer and focusing on sharper details no less rich in feelings than their wider interpretation.
 						</p>
-						${Figure(24, { class: "col-span-2" })}
-						${Figure(25, { class: "col-span-2" })}
-						${Figure(26, { class: "col-span-2" })}
+						${Figure(24, { class: "col-span-2 md:row-start-2 md:col-span-3" })}
+						${Figure(25, { class: "col-span-2 md:mt-32" })}
+						${Figure(26, {
+							class: "col-span-2",
+							imgClass: "col-span-2",
+							caption: "Shine at Kamakura.",
+							captionClass: "md:col-start-2",
+						})}
+						${Figure(28, { class: "col-span-2 md:col-start-2" })}
 						${Figure(27, { class: "col-span-2" })}
-						${Figure(28, { class: "col-span-2" })}
 					</section>
 				`
 
+				const end = /* html */ `
+					<section id="end" class="min-h-screen content-center">
+						<h2 class="col-start-2 md:col-start-3">Fin.</h2>
+						<div class="col-start-2 md:col-start-3 space-y-4">
+							<p>
+								Thank you so much for browsing my photographs. I hope some of them got you inspired the same way all those places in Tokyo — and around — got me inspired.
+							</p>
+							<p>
+								Whoever you might be, I value your feedback. Please feel free to start a conversation with me on the platform that's most convenient to you:
+							</p>
+							<ul class="list-[square] list-inside">
+								<li>
+									<a href="https://bsky.app/profile/lihbr.com" class="underline" target="_blank" rel="noreferrer">Bluesky</a>
+								</li>
+								<li>
+									<a href="https://www.instagram.com/lihbr.png" class="underline" target="_blank" rel="noreferrer">Instagram</a>
+								</li>
+								<li>
+									<a href="mailto:hello@lihbr.com" class="underline">Mail</a>
+								</li>
+							</ul>
+						</div>
+						${Figure(60, {
+							class: "self-start col-start-1 row-start-2 md:col-start-2",
+						})}
+					</section>
+				`
 
+				const menu = /* html */ `
+					<div class="absolute top-[100vh] bottom-[calc(100vh+6rem)] right-0 pointer-events-none">
+						<a href="#nav" class="block sticky top-2 right-4 p-2 underline text-sm pointer-events-auto">Chapters</a>
+					</div>
+				`
 
-				const main = /* html */ `<main class="dialog-fade">${[
+				const main = /* html */ `<main class="dialog-fade relative">${[
 					hero,
 					nav,
 					start,
@@ -303,7 +349,30 @@ export const app = defineAkteApp({
 					suzuka,
 					sinking,
 					lingering,
+					end,
+					menu,
 				].join("\n")}</main>`
+
+				const thanks = /* html */ `
+					<section id="end" class="dialog-fade items-start">
+						<h2 class="sr-only">Thanks</h2>
+						<p class="md:col-start-2">
+							Those three months were really special. I'm proud of myself for doing this trip and grateful I was able to.
+						</p>
+						<p class="col-start-1 md:col-start-2">
+							I hold some special thanks to the people I shared parts of this journey with: Jules, Rio, Nicolas, Daleel, Amaury, Anthony, Ubugeii, Ota, Saphy, Julien, Alvaro, Mireia, and Alex.
+						</p>
+					</section>
+				`
+
+				const footer = /* html */ `
+					<footer id="footer" class="dialog-fade section min-h-screen content-center relative">
+						${Figure(59, { class: "col-span-2 md:col-start-2" })}
+						<p class="absolute left-0 bottom-4 md:left-1/4 w-1/2 md:w-1/4">
+							<a href="https://creativecommons.org/licenses/by-nc-sa/4.0" target="_blank" rel="noreferrer" class="underline">cc by-nc-sa 4.0</a> © 2025-present <a href="https://lihbr.com?source=tokyo" class="underline">lucie haberer</a>
+						</p>
+					</footer>
+				`
 
 				const dialog = /* html */ `
 					<dialog id="image-preview" closedby="any">
@@ -318,7 +387,7 @@ export const app = defineAkteApp({
 					</dialog>
 				`
 
-				return Layout([main, dialog].join("\n"))
+				return Layout([main, dialog, thanks, footer].join("\n"))
 			},
 		}),
 	],

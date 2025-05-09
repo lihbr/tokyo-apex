@@ -5,7 +5,7 @@ const $dialog = document.querySelector("#image-preview") as HTMLDialogElement
 const $dialogCloseButton = $dialog.querySelector("figure>button") as HTMLButtonElement
 const $dialogImg = $dialog.querySelector("figure>button>img") as HTMLImageElement
 const $dialogFigcaption = $dialog.querySelector("figure>figcaption") as HTMLElement
-const $dialogOpenButtons = document.querySelectorAll("section figure>button") as NodeListOf<HTMLButtonElement>
+const $dialogOpenButtons = document.querySelectorAll("section figure>button, .section figure>button") as NodeListOf<HTMLButtonElement>
 
 
 $dialogOpenButtons.forEach(($dialogOpenButton) => {

@@ -1,6 +1,7 @@
 # custom
 .akte
 dist
+src/public/tmp
 
 # os
 .DS_Store
