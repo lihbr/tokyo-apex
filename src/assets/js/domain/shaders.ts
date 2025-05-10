@@ -8,4 +8,3 @@ $script.textContent = backgroundGLSL
 
 $shader.appendChild($script)
 document.body.appendChild($shader)
-

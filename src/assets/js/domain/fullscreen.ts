@@ -1,4 +1,5 @@
-import { asImagePixelDensitySrcSet, ImageFieldImage } from "@prismicio/client"
+import type { ImageFieldImage } from "@prismicio/client"
+import { asImagePixelDensitySrcSet } from "@prismicio/client"
 import { getPicture, PictureMeta } from "../../../components/Picture"
 
 const $dialog = document.querySelector("#image-preview") as HTMLDialogElement
@@ -7,10 +8,9 @@ const $dialogImg = $dialog.querySelector("figure>button>img") as HTMLImageElemen
 const $dialogFigcaption = $dialog.querySelector("figure>figcaption") as HTMLElement
 const $dialogOpenButtons = document.querySelectorAll("section figure>button, .section figure>button") as NodeListOf<HTMLButtonElement>
 
-
 $dialogOpenButtons.forEach(($dialogOpenButton) => {
 	$dialogOpenButton.addEventListener("click", () => {
-		const $img = ($dialogOpenButton.children[0] as HTMLImageElement)
+		const $img = $dialogOpenButton.children[0] as HTMLImageElement
 		const id = $img.dataset.id!
 		const picture = getPicture(id)
 
@@ -46,7 +46,7 @@ $dialogOpenButtons.forEach(($dialogOpenButton) => {
 				options.width = Math.min(Math.ceil(window.innerWidth / 200) * 200, 2400)
 			}
 
-			const { src, srcset } = asImagePixelDensitySrcSet(picture as unknown as ImageFieldImage,options)!
+			const { src, srcset } = asImagePixelDensitySrcSet(picture as unknown as ImageFieldImage, options)!
 
 			$dialogImg.src = src
 			$dialogImg.srcset = srcset
