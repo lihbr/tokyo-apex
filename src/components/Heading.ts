@@ -19,5 +19,5 @@ export function Heading(id: keyof typeof headings, props: { class?: string } = {
 }
 
 export function HeadingLink(id: keyof typeof headings): string {
-	return /* html */ `<a href="#${id}" class="underline">${headings[id]}</a>`
+	return /* html */ `<a href="#${id}" class="underline underline-offset-2">${headings[id]}</a>`
 }

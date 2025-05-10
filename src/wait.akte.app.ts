@@ -23,13 +23,13 @@ export const app = defineAkteApp({
 							</p>
 							<ul class="list-[square] list-inside slide-enter-5">
 								<li>
-									<a href="https://bsky.app/profile/lihbr.com" class="underline" target="_blank" rel="noreferrer">Bluesky</a>
+									<a href="https://bsky.app/profile/lihbr.com" class="underline underline-offset-2" target="_blank" rel="noreferrer">Bluesky</a>
 								</li>
 								<li>
-									<a href="https://www.instagram.com/lihbr.png" class="underline" target="_blank" rel="noreferrer">Instagram</a>
+									<a href="https://www.instagram.com/lihbr.png" class="underline underline-offset-2" target="_blank" rel="noreferrer">Instagram</a>
 								</li>
 								<li>
-									<a href="mailto:hello@lihbr.com" class="underline">Mail</a>
+									<a href="mailto:hello@lihbr.com" class="underline underline-offset-2">Mail</a>
 								</li>
 							</ul>
 						</div>

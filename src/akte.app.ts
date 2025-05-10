@@ -22,7 +22,7 @@ export const app = defineAkteApp({
 								As a hobbyist photographer, I tried capturing things that caught my attention. This website is a curated collection of shots made during this trip.
 							</p>
 							<p class="slide-enter-4">
-								<a href="#start" class="after:content-['_→']"><span class="underline">Start</span></a>
+								<a href="#start" class="after:content-['_→']"><span class="underline underline-offset-2">Start</span></a>
 							</p>
 						</div>
 						${Figure(11, { class: "slide-enter-5 self-start", loading: "eager" })}
@@ -51,7 +51,7 @@ export const app = defineAkteApp({
 					<aside id="start" class="section">
 						<ul class="col-start-2 md:col-start-3 list-[lower-roman] list-inside">
 							<li>
-								While browsing, <em class="not-italic underline decoration-dotted">tap any picture</em> to display it full screen. Tap it again to get back to the gallery.
+								While browsing, <em class="not-italic underline underline-offset-2 decoration-dotted">tap any picture</em> to display it full screen. Tap it again to get back to the gallery.
 							</li>
 						</ul>
 					</aside>
@@ -312,13 +312,13 @@ export const app = defineAkteApp({
 							</p>
 							<ul class="list-[square] list-inside">
 								<li>
-									<a href="https://bsky.app/profile/lihbr.com" class="underline" target="_blank" rel="noreferrer">Bluesky</a>
+									<a href="https://bsky.app/profile/lihbr.com" class="underline underline-offset-2" target="_blank" rel="noreferrer">Bluesky</a>
 								</li>
 								<li>
-									<a href="https://www.instagram.com/lihbr.png" class="underline" target="_blank" rel="noreferrer">Instagram</a>
+									<a href="https://www.instagram.com/lihbr.png" class="underline underline-offset-2" target="_blank" rel="noreferrer">Instagram</a>
 								</li>
 								<li>
-									<a href="mailto:hello@lihbr.com" class="underline">Mail</a>
+									<a href="mailto:hello@lihbr.com" class="underline underline-offset-2">Mail</a>
 								</li>
 							</ul>
 						</div>
@@ -330,7 +330,7 @@ export const app = defineAkteApp({
 
 				const menu = /* html */ `
 					<div class="absolute top-[calc(100vh+6rem)] bottom-[calc(100vh+6rem)] 2xl:top-[calc(100vh+12rem)] 2xl:bottom-[calc(100vh+12rem)] right-0 pointer-events-none">
-						<a href="#nav" class="block sticky top-2 right-4 p-2 underline text-sm pointer-events-auto">Chapters</a>
+						<a href="#nav" class="block sticky top-2 right-4 p-2 underline underline-offset-2 text-sm pointer-events-auto">Chapters</a>
 					</div>
 				`
 
@@ -369,7 +369,7 @@ export const app = defineAkteApp({
 					<footer id="footer" class="dialog-fade section min-h-screen content-center relative">
 						${Figure(59, { class: "col-span-2 md:col-start-2" })}
 						<p class="absolute left-0 bottom-4 md:left-1/4 w-1/2 md:w-1/4">
-							<a href="https://creativecommons.org/licenses/by-nc-nd/4.0" target="_blank" rel="noreferrer" class="underline">cc by-nc-nd 4.0</a> © 2025-present <a href="https://lihbr.com?source=tokyo" class="underline">lucie haberer</a>
+							<a href="https://creativecommons.org/licenses/by-nc-nd/4.0" target="_blank" rel="noreferrer" class="underline underline-offset-2">cc by-nc-nd 4.0</a> © 2025-present <a href="https://lihbr.com?source=tokyo" class="underline underline-offset-2">lucie haberer</a>
 						</p>
 					</footer>
 				`
