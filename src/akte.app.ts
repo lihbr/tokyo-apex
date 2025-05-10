@@ -16,7 +16,7 @@ export const app = defineAkteApp({
 						<h1 class="md:col-start-2 slide-enter-1">${Logomark({ class: "h-auto w-auto max-h-12 max-w-full" })}</h1>
 						<div class="col-start-1 md:col-start-2 space-y-4">
 							<p class="slide-enter-2">
-								In February 2025, I embarked on a 3-month journey to Tokyo, Japan. I wanted to explore the city, meet friends, and learn about local life.
+								In February 2025, I embarked on a 3-month journey to Tokyo, Japan. I wanted to explore the city, reconnect with friends, and learn from daily life.
 							</p>
 							<p class="slide-enter-3">
 								As a hobbyist photographer, I tried capturing things that caught my attention. This website is a curated collection of shots made during this trip.
@@ -25,7 +25,7 @@ export const app = defineAkteApp({
 								<a href="#start" class="after:content-['_→']"><span class="underline">Start</span></a>
 							</p>
 						</div>
-						${Figure(11, { class: "slide-enter-5 self-start" })}
+						${Figure(11, { class: "slide-enter-5 self-start", loading: "eager" })}
 					</section>
 				`
 
@@ -53,7 +53,7 @@ export const app = defineAkteApp({
 							<li>
 								While browsing, <em class="not-italic underline decoration-dotted">tap any picture</em> to display it full screen. Tap it again to get back to the gallery.
 							</li>
-						</p>
+						</ul>
 					</aside>
 				`
 
@@ -87,7 +87,7 @@ export const app = defineAkteApp({
 					<section id="from-above" class="items-start">
 						${Heading("from-above", { class: "md:col-start-3" })}
 						<p class="col-start-1 md:col-start-4 md:row-start-2">
-							Elevated paths span a sea of distant actions, one can only have a small glimpse at under a false sense of control.
+							Elevated paths span a sea of distant actions — one can only have a small glimpse beneath a false sense of control.
 						</p>
 						${Figure(1, { class: "col-span-2 md:col-start-2" })}
 						${Figure(2, { class: "col-span-2" })}
@@ -110,7 +110,7 @@ export const app = defineAkteApp({
 					<section id="and-below" class="items-start">
 						${Heading("and-below", { class: "col-start-2" })}
 						<p class="col-start-2">
-							Now looking upward, silent geometries still bath in sun, drawing the sky and casting shadows from their high ground.
+							Now looking upward, silent geometries still bathe in sun, drawing the sky and casting shadows from above.
 						</p>
 						${Figure(18, { class: "col-span-2" })}
 						${Figure(19, {
@@ -135,7 +135,7 @@ export const app = defineAkteApp({
 					<section id="night-life" class="items-start">
 						${Heading("night-life", { class: "md:col-start-3" })}
 						<p class="col-start-1 md:col-start-3">
-							Enshadowed with thungsten glow, a quiet pulse duets with an electric one as people wrap up the day.
+							Enshadowed with tungsten glow, a quiet pulse duets with an electric one as people wrap up the day.
 						</p>
 						${Figure(30, { class: "col-span-2 md:row-start-2" })}
 						${Figure(31, { class: "col-span-2 md:col-start-2" })}
@@ -262,7 +262,7 @@ export const app = defineAkteApp({
 					<section id="sinking-into-the-scene" class="items-start">
 						${Heading("sinking-into-the-scene", { class: "md:col-start-2" })}
 						<p class="col-start-1">
-							Of wider canvas, inviting the gaze to slow, and thoughts to be absorbed by the surrounding atmosphere.
+							Of wider canvas, inviting the gaze to slow, and thoughts to soften into the atmosphere.
 						</p>
 						${Figure(13, { class: "col-span-2 md:col-start-2 md:row-span-2" })}
 						${Figure(14, { class: "col-span-2 md:col-span-1 md:col-start-1 md:row-span-2 md:self-center" })}
@@ -285,7 +285,7 @@ export const app = defineAkteApp({
 					<section id="and-lingering-in-fragments" class="items-start">
 						${Heading("and-lingering-in-fragments", { class: "col-start-2 md:col-start-3" })}
 						<p class="col-start-2 md:row-start-2 md:col-start-4">
-							Moving closer and focusing on sharper details no less rich in feelings than their wider interpretation.
+							Moving closer and focusing on sharper details no less vivid than their wider counterparts.
 						</p>
 						${Figure(24, { class: "col-span-2 md:row-start-2 md:col-span-3" })}
 						${Figure(25, { class: "col-span-2 md:mt-32" })}
@@ -305,7 +305,7 @@ export const app = defineAkteApp({
 						<h2 class="col-start-2 md:col-start-3">Fin.</h2>
 						<div class="col-start-2 md:col-start-3 space-y-4">
 							<p>
-								Thank you so much for browsing my photographs. I hope some of them got you inspired the same way all those places in Tokyo — and around — got me inspired.
+								Thank you so much for browsing my photographs. I hope some of them inspired you the way these places inspired me.
 							</p>
 							<p>
 								Whoever you might be, I value your feedback. Please feel free to start a conversation with me on the platform that's most convenient to you:
@@ -329,7 +329,7 @@ export const app = defineAkteApp({
 				`
 
 				const menu = /* html */ `
-					<div class="absolute top-[100vh] bottom-[calc(100vh+6rem)] right-0 pointer-events-none">
+					<div class="absolute top-[calc(100vh+6rem)] bottom-[calc(100vh+6rem)] 2xl:top-[calc(100vh+12rem)] 2xl:bottom-[calc(100vh+12rem)] right-0 pointer-events-none">
 						<a href="#nav" class="block sticky top-2 right-4 p-2 underline text-sm pointer-events-auto">Chapters</a>
 					</div>
 				`

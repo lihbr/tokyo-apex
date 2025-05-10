@@ -12,16 +12,16 @@ export function getPicture(id: number | string): typeof pictures[keyof typeof pi
 	return picture
 }
 
-export function Picture(id: number | string, props: { class?: string } = {}): string {
+export function Picture(id: number | string, props: { class?: string, height?: number, loading?: "lazy" | "eager" } = {}): string {
 	const picture = getPicture(id)
 
 	const { src, srcset } = asImagePixelDensitySrcSet(
 		picture as unknown as ImageFieldImage,
-		{ auto: ["format"], height: 600, pixelDensities: [1, 1.5, 2] },
+		{ auto: ["format"], height: props.height || 600, pixelDensities: [1, 1.5, 2] },
 	)!
 	const maybeClass = props.class ? ` class="${props.class}"` : ""
 
-	return /* html */ `<img src="${src}" srcset="${srcset}" alt="" loading="lazy" width="${picture.dimensions.width}" height="${picture.dimensions.height}" ${maybeClass} data-id="${id}">`
+	return /* html */ `<img src="${src}" srcset="${srcset}" alt="" loading="${props.loading || "lazy"}" width="${picture.dimensions.width}" height="${picture.dimensions.height}" ${maybeClass} data-id="${id}">`
 }
 
 export function PictureMeta(id: number | string): string {

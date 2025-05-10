@@ -1,8 +1,17 @@
 import { Picture } from "./Picture"
 
-export function Figure(id: number | string, props: { class?: string, imgClass?: string, caption?: string, captionClass?: string } = {}): string {
+export function Figure(
+	id: number | string,
+	props: {
+		class?: string
+		imgClass?: string
+		caption?: string
+		captionClass?: string
+		loading?: "lazy" | "eager"
+	} = {},
+): string {
 	const maybeImgClass = props.imgClass ? ` class="${props.imgClass}"` : ""
-	const img = /* html */ `<button type="button" aria-label="Display full screen image"${maybeImgClass}>${Picture(id)}</button>`
+	const img = /* html */ `<button type="button" aria-label="Display full screen image"${maybeImgClass}>${Picture(id, { height: props.class?.includes("col-span-3") ? 900 : undefined, loading: props.loading })}</button>`
 
 	const caption = props.caption ? `<figcaption class="mb-16 md:mb-0 ${props.captionClass || ""}">${props.caption}</figcaption>` : ""
 

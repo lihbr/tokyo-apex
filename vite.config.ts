@@ -44,5 +44,5 @@ export default defineConfig({
 			},
 		},
 	},
-	plugins: [akte({ app }), tailwindcss(), glsl()],
+	plugins: [akte({ app }), tailwindcss(), glsl({ minify: true })],
 })

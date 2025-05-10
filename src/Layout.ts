@@ -2,7 +2,7 @@ const URL = "https://lucie-tokyo.com"
 const TITLE = "lucie→tokyo"
 const META_TITLE = TITLE
 const META_DESCRIPTION = "You found the project~!"
-const META_IMAGE = "https://images.prismic.io/lihbr/Z-kzHHdAxsiBwFlF_250201-japan-0016.jpg?auto=format&h=800"
+const META_IMAGE = "https://images.prismic.io/lihbr/aB-FaSdWJ-7kR3dj_tokyo-apex.png?auto=format"
 
 const STRUCTURED_DATA: unknown[] = [
 	{
