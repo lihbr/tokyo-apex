@@ -19,7 +19,7 @@ export const app = defineAkteApp({
 								In February 2025, I embarked on a 3-month journey to Tokyo, Japan. I wanted to explore the city, reconnect with friends, and learn from daily life.
 							</p>
 							<p class="slide-enter-3">
-								As a hobbyist photographer, I tried capturing things that caught my attention. This website is a curated collection of shots made during this trip.
+								As a hobbyist photographer, I tried capturing things that caught my attention. This website is a curated collection of photographs taken during this trip.
 							</p>
 							<p class="slide-enter-4">
 								<a href="#start" class="after:content-['_→']"><span class="underline underline-offset-2">Start</span></a>
@@ -262,7 +262,7 @@ export const app = defineAkteApp({
 					<section id="sinking-into-the-scene" class="items-start">
 						${Heading("sinking-into-the-scene", { class: "md:col-start-2" })}
 						<p class="col-start-1">
-							Of wider canvas, inviting the gaze to slow, and thoughts to soften into the atmosphere.
+							Of wider canvases, inviting the gaze to slow, and thoughts to soften into the atmosphere.
 						</p>
 						${Figure(13, { class: "col-span-2 md:col-start-2 md:row-span-2" })}
 						${Figure(14, { class: "col-span-2 md:col-span-1 md:col-start-1 md:row-span-2 md:self-center" })}
@@ -300,6 +300,12 @@ export const app = defineAkteApp({
 					</section>
 				`
 
+				const menu = /* html */ `
+					<div class="absolute top-24 bottom-24 2xl:top-48 2xl:bottom-48 right-0 pointer-events-none">
+						<a href="#nav" class="block sticky top-2 right-4 p-2 underline underline-offset-2 text-sm pointer-events-auto">Chapters</a>
+					</div>
+				`
+
 				const end = /* html */ `
 					<section id="end" class="min-h-screen content-center">
 						<h2 class="col-start-2 md:col-start-3">Fin.</h2>
@@ -308,7 +314,7 @@ export const app = defineAkteApp({
 								Thank you so much for browsing my photographs. I hope some of them inspired you the way these places inspired me.
 							</p>
 							<p>
-								Whoever you might be, I value your feedback. Please feel free to start a conversation with me on the platform that's most convenient to you:
+								Whoever you are, I'd love to hear your thoughts. Feel free to start a conversation with me on the platform that's most convenient to you:
 							</p>
 							<ul class="list-[square] list-inside">
 								<li>
@@ -328,33 +334,8 @@ export const app = defineAkteApp({
 					</section>
 				`
 
-				const menu = /* html */ `
-					<div class="absolute top-[calc(100vh+6rem)] bottom-[calc(100vh+6rem)] 2xl:top-[calc(100vh+12rem)] 2xl:bottom-[calc(100vh+12rem)] right-0 pointer-events-none">
-						<a href="#nav" class="block sticky top-2 right-4 p-2 underline underline-offset-2 text-sm pointer-events-auto">Chapters</a>
-					</div>
-				`
-
-				const main = /* html */ `<main class="dialog-fade relative">${[
-					hero,
-					nav,
-					start,
-					meeting,
-					above,
-					below,
-					night,
-					trip,
-					ride,
-					rain,
-					shelters,
-					suzuka,
-					sinking,
-					lingering,
-					end,
-					menu,
-				].join("\n")}</main>`
-
 				const thanks = /* html */ `
-					<section id="end" class="dialog-fade items-start">
+					<section id="end" class="items-start">
 						<h2 class="sr-only">Thanks</h2>
 						<p class="md:col-start-2">
 							Those three months were really special to me. I'm proud of myself for taking on the challenge this trip was and grateful I was able to.
@@ -364,6 +345,34 @@ export const app = defineAkteApp({
 						</p>
 					</section>
 				`
+
+				const main = /* html */ `<main class="dialog-fade">${[
+					hero,
+					/* html */ `
+						<div class="relative">
+							${
+								[
+									nav,
+									start,
+									meeting,
+									above,
+									below,
+									night,
+									trip,
+									ride,
+									rain,
+									shelters,
+									suzuka,
+									sinking,
+									lingering,
+									menu,
+								].join("\n")
+							}
+						</div>
+					`,
+					end,
+					thanks,
+				].join("\n")}</main>`
 
 				const footer = /* html */ `
 					<footer id="footer" class="dialog-fade section min-h-screen content-center relative">
@@ -387,7 +396,7 @@ export const app = defineAkteApp({
 					</dialog>
 				`
 
-				return Layout([main, dialog, thanks, footer].join("\n"))
+				return Layout([main, dialog, footer].join("\n"))
 			},
 		}),
 	],
