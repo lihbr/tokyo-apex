@@ -107,45 +107,45 @@ export const app = defineAkteApp({
 				`
 
 				const below = /* html */ `
-				<section id="and-below" class="items-start">
-					${Heading("and-below", { class: "col-start-2" })}
-					<p class="col-start-2">
-						Now looking upward, silent geometries still bath in sun, drawing the sky and casting shadows from their high ground.
-					</p>
-					${Figure(18, { class: "col-span-2" })}
-					${Figure(19, {
-						class: "col-span-2 md:col-start-2",
-						imgClass: "col-span-2",
-						caption: "View from Kawagoe.",
-						captionClass: "col-start-2 md:col-start-3",
-					})}
-					${Figure(20, { class: "col-span-2" })}
-					${Figure(21, { class: "col-span-2 md:mt-32" })}
-					${Figure(22, {
-						class: "col-span-2 md:col-span-3",
-						imgClass: "col-span-2",
-						caption: "Nagoya's castle, as part of one of the trips I made during my stay.",
-						captionClass: "md:-order-1 md:text-right",
-					})}
-					${Figure(23, { class: "col-span-2 md:col-start-3" })}
-				</section>
+					<section id="and-below" class="items-start">
+						${Heading("and-below", { class: "col-start-2" })}
+						<p class="col-start-2">
+							Now looking upward, silent geometries still bath in sun, drawing the sky and casting shadows from their high ground.
+						</p>
+						${Figure(18, { class: "col-span-2" })}
+						${Figure(19, {
+							class: "col-span-2 md:col-start-2",
+							imgClass: "col-span-2",
+							caption: "View from Kawagoe.",
+							captionClass: "col-start-2 md:col-start-3",
+						})}
+						${Figure(20, { class: "col-span-2" })}
+						${Figure(21, { class: "col-span-2 md:mt-32" })}
+						${Figure(22, {
+							class: "col-span-2 md:col-span-3",
+							imgClass: "col-span-2",
+							caption: "Nagoya's castle, as part of one of the trips I made during my stay.",
+							captionClass: "md:-order-1 md:text-right md:ml-auto",
+						})}
+						${Figure(23, { class: "col-span-2 md:col-start-3" })}
+					</section>
 				`
 
 				const night = /* html */ `
-				<section id="night-life" class="items-start">
-					${Heading("night-life", { class: "md:col-start-3" })}
-					<p class="col-start-1 md:col-start-3">
-						Enshadowed with thungsten glow, a quiet pulse duets with an electric one as people wrap up the day.
-					</p>
-					${Figure(30, { class: "col-span-2 md:row-start-2" })}
-					${Figure(31, { class: "col-span-2 md:col-start-2" })}
-					${Figure(29, {
-						class: "col-span-2 md:col-span-1 md:row-span-2 self-center",
-						imgClass: "col-span-2 md:col-span-1",
-						caption: "Shibuya Center-Gai.",
-					})}
-					${Figure(32, { class: "col-span-2" })}
-				</section>
+					<section id="night-life" class="items-start">
+						${Heading("night-life", { class: "md:col-start-3" })}
+						<p class="col-start-1 md:col-start-3">
+							Enshadowed with thungsten glow, a quiet pulse duets with an electric one as people wrap up the day.
+						</p>
+						${Figure(30, { class: "col-span-2 md:row-start-2" })}
+						${Figure(31, { class: "col-span-2 md:col-start-2" })}
+						${Figure(29, {
+							class: "col-span-2 md:col-span-1 md:row-span-2 self-center",
+							imgClass: "col-span-2 md:col-span-1",
+							caption: "Shibuya Center-Gai.",
+						})}
+						${Figure(32, { class: "col-span-2" })}
+					</section>
 				`
 
 				const trip = /* html */ `
@@ -357,10 +357,10 @@ export const app = defineAkteApp({
 					<section id="end" class="dialog-fade items-start">
 						<h2 class="sr-only">Thanks</h2>
 						<p class="md:col-start-2">
-							Those three months were really special. I'm proud of myself for doing this trip and grateful I was able to.
+							Those three months were really special to me. I'm proud of myself for taking on the challenge this trip was and grateful I was able to.
 						</p>
 						<p class="col-start-1 md:col-start-2">
-							I hold some special thanks to the people I shared parts of this journey with: Jules, Rio, Nicolas, Daleel, Amaury, Anthony, Ubugeii, Ota, Saphy, Julien, Alvaro, Mireia, and Alex.
+							I hold some special thanks to the people I shared parts of this journey with: Jules, Rio, Nicolas, Dareel, Amaury, Anthony, Ubugeeei, Ota, Sapphi, Julien, Alvaro, Mireia, and Alex.
 						</p>
 					</section>
 				`
@@ -369,7 +369,7 @@ export const app = defineAkteApp({
 					<footer id="footer" class="dialog-fade section min-h-screen content-center relative">
 						${Figure(59, { class: "col-span-2 md:col-start-2" })}
 						<p class="absolute left-0 bottom-4 md:left-1/4 w-1/2 md:w-1/4">
-							<a href="https://creativecommons.org/licenses/by-nc-sa/4.0" target="_blank" rel="noreferrer" class="underline">cc by-nc-sa 4.0</a> © 2025-present <a href="https://lihbr.com?source=tokyo" class="underline">lucie haberer</a>
+							<a href="https://creativecommons.org/licenses/by-nc-nd/4.0" target="_blank" rel="noreferrer" class="underline">cc by-nc-nd 4.0</a> © 2025-present <a href="https://lihbr.com?source=tokyo" class="underline">lucie haberer</a>
 						</p>
 					</footer>
 				`
