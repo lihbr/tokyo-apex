@@ -292,7 +292,7 @@ export const app = defineAkteApp({
 						${Figure(26, {
 							class: "col-span-2",
 							imgClass: "col-span-2",
-							caption: "Shine at Kamakura.",
+							caption: "Ladder at Daigyoji temple in Kamakura.",
 							captionClass: "md:col-start-2",
 						})}
 						${Figure(28, { class: "col-span-2 md:col-start-2" })}
