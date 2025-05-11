@@ -17,7 +17,7 @@ export function Picture(id: number | string, props: { class?: string, height?: n
 
 	const { src, srcset } = asImagePixelDensitySrcSet(
 		picture as unknown as ImageFieldImage,
-		{ auto: ["format"], height: props.height || 600, pixelDensities: [1, 1.5, 2] },
+		{ auto: ["format"], height: props.height || 600, pixelDensities: [1, 1.5, 2], lossless: true },
 	)!
 	const maybeClass = props.class ? ` class="${props.class}"` : ""
 

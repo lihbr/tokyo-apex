@@ -38,7 +38,7 @@ $dialogOpenButtons.forEach(($dialogOpenButton) => {
 		const pictureAspectRatio = picture.dimensions.width / picture.dimensions.height
 
 		setTimeout(() => {
-			const options = { auto: ["format"], pixelDensities: [1, 1.5, 2] } as Exclude<Parameters<typeof asImagePixelDensitySrcSet>[1], undefined>
+			const options = { auto: ["format"], pixelDensities: [1, 1.5, 2], lossless: true } as Exclude<Parameters<typeof asImagePixelDensitySrcSet>[1], undefined>
 
 			if (windowAspectRatio > pictureAspectRatio) {
 				options.height = Math.min(Math.ceil(window.innerHeight / 200) * 200, 2400)
