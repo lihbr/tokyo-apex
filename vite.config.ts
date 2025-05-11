@@ -6,7 +6,7 @@ import { defineConfig } from "vite"
 
 import glsl from "vite-plugin-glsl"
 
-import { app } from "./src/akte.app"
+import { app } from "./src/wait.akte.app"
 
 export default defineConfig({
 	root: path.resolve(__dirname, "src"),
