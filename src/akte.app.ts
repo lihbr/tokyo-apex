@@ -100,7 +100,7 @@ export const app = defineAkteApp({
 						${Figure(4, {
 							class: "col-span-2 md:col-start-2",
 							imgClass: "col-span-2",
-							caption: "Tokyo skyline from Ikebukuro Sunshine's City observatory.",
+							caption: "Tokyo skyline from Ikebukuro Sunshine City observatory.",
 							captionClass: "col-start-2 md:col-start-auto !mb-0",
 						})}
 					</section>
@@ -275,7 +275,7 @@ export const app = defineAkteApp({
 						${Figure(17, {
 							class: "col-span-2",
 							imgClass: "col-span-2",
-							caption: "Chōfu airfield deserving Tokyo's southern islands.",
+							caption: "Chōfu airfield serving Tokyo's southern islands.",
 						})}
 						${Figure(16, { class: "col-span-2 md:col-span-1 md:mt-32" })}
 					</section>
@@ -301,7 +301,7 @@ export const app = defineAkteApp({
 				`
 
 				const menu = /* html */ `
-					<div class="absolute top-24 bottom-24 2xl:top-48 2xl:bottom-48 right-0 pointer-events-none">
+					<div class="absolute top-22 bottom-22 2xl:top-46 2xl:bottom-46 right-0 pointer-events-none">
 						<a href="#nav" class="block sticky top-2 right-4 p-2 underline underline-offset-2 text-sm pointer-events-auto">Chapters</a>
 					</div>
 				`
