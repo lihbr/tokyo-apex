@@ -35,6 +35,7 @@ export function Layout(slot: string): string {
 			<meta property="og:image" content="${META_IMAGE}">
 
 			<meta name="twitter:card" content="summary_large_image">
+			<meta name="twitter:image" content="${META_IMAGE}">
 
 			<script type="application/ld+json">${JSON.stringify(STRUCTURED_DATA)}</script>
 
