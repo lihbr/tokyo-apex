@@ -69,7 +69,7 @@ export const app = defineAkteApp({
 						${Figure(8, {
 							class: "col-span-2",
 							imgClass: "col-span-2",
-							caption: "Flamingos and yound students at Ueno.",
+							caption: "Flamingos and young students at Ueno.",
 							captionClass: "col-start-2 md:col-start-3",
 						})}
 						${Figure(5, { class: "col-span-2 md:col-span-1" })}
