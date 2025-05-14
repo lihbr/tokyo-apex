@@ -1,4 +1,4 @@
-const URL = "https://lucie-tokyo.com"
+const URL = "https://lucie.tokyo"
 const TITLE = "lucie→tokyo"
 const META_TITLE = TITLE
 const META_DESCRIPTION = "An online photography exhibition by Lucie Haberer."
@@ -34,8 +34,7 @@ export function Layout(slot: string): string {
 			<meta property="og:description" content="${META_DESCRIPTION}">
 			<meta property="og:image" content="${META_IMAGE}">
 
-			<meta name="twitter:card" content="summary_large_image">
-			<meta name="twitter:image" content="${META_IMAGE}">
+			<meta name="twitter:card" content="summary">
 
 			<script type="application/ld+json">${JSON.stringify(STRUCTURED_DATA)}</script>
 
