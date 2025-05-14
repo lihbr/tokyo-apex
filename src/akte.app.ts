@@ -324,6 +324,9 @@ export const app = defineAkteApp({
 									<a href="https://www.instagram.com/lihbr.png" class="underline underline-offset-2" target="_blank" rel="noreferrer">Instagram</a>
 								</li>
 								<li>
+									<a href="https://mastodon.social/@lihbr" class="underline underline-offset-2" target="_blank" rel="noreferrer">Mastodon</a>
+								</li>
+								<li>
 									<a href="mailto:hello@lihbr.com" class="underline underline-offset-2">Mail</a>
 								</li>
 							</ul>
