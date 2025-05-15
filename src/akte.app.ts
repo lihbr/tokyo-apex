@@ -12,7 +12,7 @@ export const app = defineAkteApp({
 			path: "/",
 			render() {
 				const hero = /* html */ `
-					<section id="hero" class="min-h-screen content-center">
+					<section id="hero" class="min-h-svh content-center">
 						<h1 class="md:col-start-2 slide-enter-1">${Logomark({ class: "h-auto w-auto max-h-12 max-w-full" })}</h1>
 						<div class="col-start-1 md:col-start-2 space-y-4">
 							<p class="slide-enter-2">
@@ -307,7 +307,7 @@ export const app = defineAkteApp({
 				`
 
 				const end = /* html */ `
-					<section id="end" class="min-h-screen content-center">
+					<section id="end" class="min-h-svh content-center">
 						<h2 class="col-start-2 md:col-start-3">Fin.</h2>
 						<div class="col-start-2 md:col-start-3 space-y-4">
 							<p>
@@ -378,7 +378,7 @@ export const app = defineAkteApp({
 				].join("\n")}</main>`
 
 				const footer = /* html */ `
-					<footer id="footer" class="dialog-fade section min-h-screen content-center relative">
+					<footer id="footer" class="dialog-fade section min-h-svh content-center relative">
 						${Figure(59, { class: "col-span-2 md:col-start-2" })}
 						<p class="absolute left-0 bottom-4 md:left-1/4 w-1/2 md:w-1/4">
 							<a href="https://creativecommons.org/licenses/by-nc-nd/4.0" target="_blank" rel="noreferrer" class="underline underline-offset-2">cc by-nc-nd 4.0</a> © 2025-present <a href="https://lihbr.com?source=tokyo" class="underline underline-offset-2">lucie haberer</a>
