@@ -25,7 +25,7 @@ pnpm dev
 - [Akte][akte] - A minimal static site (and file) generator.
 - [Vite][vite] - Next Generation Frontend Tooling.
 - [Tailwind CSS][tailwindcss] - Utility-first CSS framework.
-- [Prismic][prismic] - Headless CMS[^1].
+- [Prismic][prismic][^1] - Headless CMS.
 - [Plausible][plausible] - Simple and privacy-friendly analytics.
 
 [^1]: Images were fetched from the [Asset API](prismic-asset) and dumped in [`data/pictures.json`](./data/pictures.json) using a script similar to [this one](https://github.com/lihbr/lihbr-apex/blob/4e74f7efe39fa691cec65436e468f9df1524e807/src/akte/prismic.ts#L182-L317).
