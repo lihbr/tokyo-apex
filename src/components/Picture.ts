@@ -28,21 +28,16 @@ export function PictureMeta(id: number | string): string {
 	const picture = getPicture(id)
 
 	const camera = /* html */ `<dt class="sr-only">Camera</dt><dd>${picture.camera}</dd>`
-
 	const focalLength = /* html */ `<dt class="sr-only">Focal length</dt><dd>${picture.focalLength}</dd>`
-
 	const aperture = "aperture" in picture
 		? /* html */ `<dt class="sr-only">Aperture</dt><dd>${picture.aperture}</dd>`
 		: ""
-
 	const film = "film" in picture
 		? /* html */ `<dt class="sr-only">Film</dt><dd>${picture.film}</dd>`
 		: ""
-
 	const exposure = "exposureTime" in picture
 		? /* html */ `<dt class="sr-only">Exposure</dt><dd>${picture.exposureTime}</dd>`
 		: ""
-
 	const iso = /* html */ `<div><dt class="inline">ISO</dt> <dd class="inline">${picture.iso}</dd></div>`
 
 	return /* html */ `<dl>${camera}${focalLength}${aperture}${film}${exposure}${iso}</dl>`

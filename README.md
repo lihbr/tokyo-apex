@@ -1,11 +1,34 @@
-# lihbr-tokyo
+<p align="center">
+  <a href="https://lucie.tokyo">
+    <img src="./.github/logo.svg" alt="tokyo-apex" height="128" />
+  </a>
+</p>
+
+# tokyo-apex
 
 [![Netlify Status][netlify-status-src]][netlify-status-href]
 [![Conventional Commits][conventional-commits-src]][conventional-commits-href]
 [![CalVer][calver-src]][calver-href]
 [![License][license-src]][license-href]
 
-Source code of [lucie.tokyo][lihbr-tokyo].
+Source code of [lucie.tokyo][lihbr-tokyo], an online photography exhibition.
+
+## Local Setup
+
+```bash
+pnpm install
+pnpm dev
+```
+
+## Stack
+
+- [Akte][akte] - A minimal static site (and file) generator.
+- [Vite][vite] - Next Generation Frontend Tooling.
+- [Tailwind CSS][tailwindcss] - Utility-first CSS framework.
+- [Prismic][prismic] - Headless CMS[^1].
+- [Plausible][plausible] - Simple and privacy-friendly analytics.
+
+[^1]: Images were fetched from the [Asset API](prismic-asset) and dumped in [`data/pictures.json`](./data/pictures.json) using a script similar to [this one](https://github.com/lihbr/lihbr-apex/blob/4e74f7efe39fa691cec65436e468f9df1524e807/src/akte/prismic.ts#L182-L317).
 
 ## License
 
@@ -16,6 +39,12 @@ Source code of [lucie.tokyo][lihbr-tokyo].
 [license]: ./LICENSE
 [lihbr-github]: https://github.com/lihbr
 [lihbr-tokyo]: https://lucie.tokyo
+[akte]: https://akte.js.org
+[vite]: https://vitejs.dev
+[tailwindcss]: https://tailwindcss.com/
+[prismic]: https://prismic.io
+[prismic-asset]: https://prismic.io/docs/asset-api-technical-reference
+[plausible]: https://plausible.io
 
 <!-- Badges -->
 

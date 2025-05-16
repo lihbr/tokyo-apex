@@ -16,6 +16,5 @@ export function Figure(
 	const caption = props.caption ? `<figcaption class="mb-16 md:mb-0 ${props.captionClass || ""}">${props.caption}</figcaption>` : ""
 
 	const maybeClass = props.caption ? "grid-cols-subgrid" : ""
-
 	return /* html */ `<figure class="p-px grid gap-y-4 ${maybeClass} ${props.class || ""}">${img}${caption}</figure>`
 }

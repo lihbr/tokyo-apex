@@ -2,7 +2,7 @@ const URL = "https://lucie.tokyo"
 const TITLE = "lucie→tokyo"
 const META_TITLE = TITLE
 const META_DESCRIPTION = "An online photography exhibition by Lucie Haberer."
-const META_IMAGE = "https://images.prismic.io/lihbr/aB-FaSdWJ-7kR3dj_tokyo-apex.png?auto=format"
+const META_IMAGE = "https://images.prismic.io/lihbr/aCcOAidWJ-7kSNZa_tokyo-apex.png?auto=format"
 
 const STRUCTURED_DATA: unknown[] = [
 	{
@@ -34,7 +34,7 @@ export function Layout(slot: string): string {
 			<meta property="og:description" content="${META_DESCRIPTION}">
 			<meta property="og:image" content="${META_IMAGE}">
 
-			<meta name="twitter:card" content="summary">
+			<meta name="twitter:card" content="summary_large_image">
 
 			<script type="application/ld+json">${JSON.stringify(STRUCTURED_DATA)}</script>
 
