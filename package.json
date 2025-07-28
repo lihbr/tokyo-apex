@@ -9,7 +9,7 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "ssh://git@github.com/lihbr/lihbr-apex.git"
+		"url": "ssh://git@github.com/lihbr/tokyo-apex.git"
 	},
 	"keywords": [
 		"lihbr",
