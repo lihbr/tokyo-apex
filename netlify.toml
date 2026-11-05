@@ -23,10 +23,3 @@ from = "https://lihbr-tokyo.netlify.app/*"
 to = "https://lucie.tokyo/:splat"
 status = 301
 force = true
-
-# Analytics
-[[redirects]]
-from = "/p7e/api/event"
-to = "https://plausible.io/api/event"
-status = 202
-force = true
